@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #000000;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
         }
@@ -120,6 +120,11 @@
             <p>
                 DevOps is a set of best practices that aims to automate and integrate the processes of software development (Dev) and IT operations (Ops).
             </p>
+            <%
+            // Intentional error: Use an undefined variable
+            String undefinedVariable = null;
+            undefinedVariable.toString();
+            %>
             <!-- More about DevOps here -->
         </section>
         <section id="benefits">
